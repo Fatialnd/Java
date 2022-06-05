@@ -1,0 +1,22 @@
+# Java-gravityCalculator
+gravity calculator
+
+package com.company;
+
+class Main {
+    public static void main(String[] arguments) {
+        double gravity = -9.81;
+        double initialVelocity = 0.0;
+        double fallingTime = 10.0;
+        double initialPosition = 0.0;
+        double finalPosition = 0.0;
+        System.out.println("The object's position after " + fallingTime + " seconds is " + finalPosition + " m.");
+        float Acc = -9.81f;
+        float t = 10f;
+        float vi = 0f;
+        float xi = 0f;
+        double formula = (0.5 * Acc * Math.pow(t,2)) + (vi * t) + xi;;
+        System.out.println("The object's position after " + t + " seconds is " + formula + " m.");
+    }
+}
+
